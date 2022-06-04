@@ -4,7 +4,7 @@ const pool = new Pool({
     user: "akinojuno",
     password: "chaeyoung29",
     host: "localhost",
-    port: 5432,
+    port: 5432, //postgres by default runs on this port
     database: "flashcard"
 })
 
