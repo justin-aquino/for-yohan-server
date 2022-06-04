@@ -2,7 +2,6 @@ CREATE DATABASE flashcard
 
 CREATE TABLE flashcard(
     flashcard_id SERIAL PRIMARY KEY,
-    name VARCHAR(255)
-  
-
+    name VARCHAR(255),
+    imageUrl TEXT
 )
